@@ -1,0 +1,23 @@
+Clustering Analysis Summary
+========================================
+
+Dataset: Iris (150 samples, 4 features)
+Algorithm: K-Means
+Optimal clusters: 3
+Silhouette Score: 0.4590
+Adjusted Rand Index: 0.6201
+
+Cluster distribution:
+cluster      0   1   2  All
+species                    
+setosa       0  50   0   50
+versicolor  39   0  11   50
+virginica   14   0  36   50
+All         53  50  47  150
+
+Key findings:
+- Elbow method and silhouette analysis both suggest k=3
+- Clusters map closely to actual species
+- Setosa is perfectly separated
+- Some overlap between versicolor and virginica
+- PCA captures 95.8% of variance in 2 components

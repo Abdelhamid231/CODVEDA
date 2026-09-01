@@ -1,0 +1,10 @@
+Time Series Analysis Report
+========================================
+
+Dataset: AirPassengers (1949-1960)
+Train: 120 months, Test: 24 months
+
+Model Results:
+  Holt-Winters: RMSE=13.88, MAE=12.38
+  ARIMA(1,1,1): RMSE=118.64, MAE=93.90
+  SARIMA(1,1,1)(1,1,1,12): RMSE=73.45, MAE=67.59
